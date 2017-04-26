@@ -1,0 +1,52 @@
+body {
+    background-color: #2196F3;
+}
+
+
+
+.container-fluid{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width:100%;
+}
+
+.btn-primary {
+    background-color: #F44336;
+}
+.btn-primary:hover {
+    background-color: #E53935;
+}
+.btn-primary:focus {
+    background-color: #E53935;
+}
+
+.word {
+    font-size: 25px;
+    color: white;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 25px;
+}
+
+.title {
+    position: absolute;
+    margin-top:10%;
+    top: 0;
+    width: 100%;
+    color:white;
+}
